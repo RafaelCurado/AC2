@@ -1,0 +1,19 @@
+Aula02
+
+Parte I
+
+1.
+    a)
+        Core Timer 
+
+        f(CPU) = sysclk = 40 Mhz
+        f(CoreTimer) = 1/2f(CPU) = 1/2 * 40 = 20 Mhz
+
+        Syscalls :
+            resetCoreTimer - syscall 12
+            readCoreTimer - syscall 11
+
+2.
+    a)
+        k = 20 000 
+    
